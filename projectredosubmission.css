@@ -1,0 +1,87 @@
+  
+.container {
+display:grid;
+flex-wrap: wrap;
+grid-template-columns: 300px 300px 300px;
+grid-template-rows: 250px 600px;
+grid-template-areas: 
+"hd hd hd hd hd hd hd hd"
+"sd main main main main main main main"
+"ft ft ft ft ft ft ft ft";
+text-align: justify;
+}
+
+.box {
+    border: 2px solid #2a6592;
+    display: flex;
+    flex-wrap:wrap;
+   background-color:#f6d8ac ;
+}
+
+.header {
+    grid-area:hd;
+}
+
+.footer {
+    grid-area:ft;
+   
+}
+.sidebar {
+    grid-area:sd;
+}
+.content {grid-area:main;
+}
+.header-box {
+    display:flex;
+    font-size: 78pt;
+    justify-content: space-between;
+    
+    background-color:#7e9a9a;
+
+
+}
+
+img {
+    margin: auto;
+    display: block;
+    display: flex;
+}
+.sidebar-box 
+{margin: 0;
+display:flex;
+white-space: normal;}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    margin-top: auto;
+    align-items: center;
+    position: relative;
+    bottom: 200px;
+    
+}
+p {
+float:left;
+}
+.postcard {
+    
+    border: 1px solid black;
+    width: 200px;
+    height: 400px;
+    padding:20px;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+    
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Poppins';
+}

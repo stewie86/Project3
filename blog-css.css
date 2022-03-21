@@ -1,0 +1,87 @@
+.contact {
+border: 1px solid black;
+margin: 0%;
+width: 100%;
+height: 70px;
+padding: 0%;
+background-color: black;
+display:flex
+
+}
+.blog-title {
+    width:100%;
+}
+.blog-title  h1{
+    text-align: center;
+}
+.list {
+    list-style:none;
+    
+}
+
+.lorde {
+    display: inline-flex;
+    flex-wrap:wrap;
+    border: 1px solid black;
+    gap: 50px;
+    flex-direction: row;
+    flex-grow: 1;
+    height:50vh;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+
+}
+.box {
+    text-align: center;
+    padding: auto;
+}
+.switzerland {
+    border: 1px solid black;
+    width: 25%;
+    height: 50vh;
+    text-align: center;
+
+}
+.korea {
+    border:1px solid black;
+    width:25%;
+    height: 50vh;
+    text-align: center;
+}
+
+.paris {
+    border:1px solid black;
+    width:25%;
+    height: 50vh;
+    text-align: center;
+}
+.edna {
+    border: 1px solid black;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 25px;
+    font-family: 'Smooch Sans';
+
+    
+}
+
+
+.poopoo {
+    list-style: none;
+
+}
+ul, li {
+    display: inline;
+}
+.list 
+{justify-content: space-between;}
+
+.footer {
+font-family: 'Hubballi' ;
+}
